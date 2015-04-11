@@ -1,0 +1,56 @@
+/* CSS declarations go here */
+
+.centeredmenu {
+   float:left;
+   width:100%;
+   background: black;
+   border-top: 4px solid black;
+   border-bottom: 4px solid black;
+   overflow: hidden;
+   position: relative;
+}
+
+.centeredmenu ul {
+   clear: left;
+   float: left;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   left: 50%;
+   text-align: center;
+}
+
+.centeredmenu ul li {
+   width : 100px;
+   min-width: 100px;
+   max-width: 200px;
+   display: inline-block;
+   float: left;
+   list-style: none;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+   position: relative;
+   border: solid 2px black;
+   vertical-align: middle;
+   right: 50%;   
+   font-size: 20px;
+   font-family: sans-serif;
+   right: 50%;
+   background : grey;
+   font-variant: small-caps;
+}
+
+.centeredmenu ul li a {
+  color: white;
+}
+
+.centeredmenu li:hover {
+  background : linear-gradient(0deg, cyan, grey);
+}
+
+header h1 {
+  text-align : center;
+  background : white;
+}
+
