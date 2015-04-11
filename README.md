@@ -19,3 +19,5 @@ Then, to run the webapp:
     meteor
 
 And open a browser to localhost:3000
+
+For developer workflow/guidance, see the [Wiki](https://github.com/uvcodebase/RecipePlaylist/wiki)
