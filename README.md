@@ -13,6 +13,8 @@ From the commandline:
     meteor add underscore
     meteor add boostrap
     meteor add iron:router
+    meteor add aldeed:autoform aldeed:collection2
+    meteor add less nemo64:bootstrap
 
 Then, to run the webapp:
  

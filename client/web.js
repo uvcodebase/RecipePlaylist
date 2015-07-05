@@ -14,6 +14,14 @@ if (Meteor.isClient) {
       Session.set("counter", Session.get("counter") + 1);
     }
   });
+
+  Template.navItems.helpers({
+    activeIfTemplateIs: function (template) {
+      var currentRoute = Router.current();
+      return currentRoute &&
+        template === currentRoute.route.getName() ? 'active' : '';
+    }
+  });
 }
 
 if (Meteor.isServer) {
