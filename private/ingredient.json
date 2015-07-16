@@ -1,0 +1,32 @@
+[
+    {
+        "name": "pineapple",
+        "calories": "5",
+        "units": "cups"
+    },
+    {
+        "name": "spinach",
+        "calories": "2",
+        "units": "cups"
+    },
+    {
+        "name": "water",
+        "calories": "0",
+        "units": "cups"
+    },
+    {
+        "name": "mango",
+        "calories": "20",
+        "units": "cups"
+    },
+    {
+        "name": "banana",
+        "calories": "15",
+        "units": "bunches"
+    },
+    {
+        "name": "orange",
+        "calories": "50",
+        "units": "boxes"
+    }
+]
