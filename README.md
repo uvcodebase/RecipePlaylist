@@ -9,7 +9,7 @@ From the commandline:
     git clone git@github.com:uvcodebase/RecipePlaylist.git
     cd RecipePlaylist
     cp -r ../tmp/.meteor .
-    rmdir ../tmp
+    rm -rv ../tmp
     meteor add underscore
     meteor add boostrap
     meteor add iron:router
