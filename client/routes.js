@@ -5,7 +5,14 @@ Router.map( function() {
 });
 
 Router.map( function() {
-  this.route('page1');
+  this.route('ingredients');
+  this.route('ingredient-view', {
+    path: '/ingredients/:_id',
+    data: function(){
+      return IngredientDB.findOne(this.params._id);
+    },
+  });
   this.route('page2');
   this.route('page3');
+
 });

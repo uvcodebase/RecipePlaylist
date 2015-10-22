@@ -5,7 +5,7 @@ Meteor.startup(function () {
     if (IngredientDB.findOne() == null) {
       console.log("no ingredients db");
       var ings = JSON.parse(Assets.getText('ingredient.json'));
-      console.log(ings);
+      // console.log(ings);
       _.each(ings, function(ing) {
         IngredientDB.insert(ing);
       });
