@@ -1,6 +1,9 @@
 <template name="ingredients">
   <h2>The Ingredients Page</h2>
   <p>Look at the nutritional information for our ingredients</p>
+  {{#each names }}
+     {{ nameBase }}<br>
+  {{/each}}
 </template>
 
 <template name="ingredientView">

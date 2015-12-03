@@ -1,4 +1,4 @@
-IngredientDB = new Mongo.Collection('ingredients')
+// IngredientDB = new Mongo.Collection('ingredients')
 
 if (Meteor.isClient) {
   // counter starts at 0
